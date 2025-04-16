@@ -1,0 +1,90 @@
+.ListaToDo{
+    border-radius: 4px;
+    border-style: solid;
+    width: 600px;    
+    text-align: center;
+}
+.Calculadora{
+    border-radius: 4px;
+    border-style: solid;
+    width: 600px;
+    text-align: center;
+}
+.Programas{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-between;
+}
+.titulo{
+    color:blue;
+}
+
+.input{
+    padding: 8px 12px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.btnagregar{
+    background-color: rgba(10, 155, 17, 0.899);
+    color: white;
+    padding: 8px 12px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 4px; /* Bordes redondeados opcional */
+}
+
+.lista{
+    text-align: left;
+    font-size: 20;
+    list-style-type: none;
+}
+
+.eliminar-btn {
+    background-color: #f44336; /* Rojo */
+    color: white;
+    padding: 8px 12px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 4px; /* Bordes redondeados opcional */
+  }
+  
+  .btnSumar, .btnRestar, .btnMultiplicar, .btnDividir, .btnCalcular{
+    background-color: #f44336;
+    color: white;
+    padding: 8px 12px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+
+ /*estilos calculdora*/
+ .inputc{
+    padding: 8px 12px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 4px;
+ }
+
+ .btnCalcular{
+    background-color: green;
+    color: white;
+    padding: 8px 12px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+
+  .btnLimpiar{
+    background-color: yellow;
+    color: black;
+    padding: 8px 12px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+
+  .resultado{
+    font-size: 20px;
+  }
